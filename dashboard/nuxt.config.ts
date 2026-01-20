@@ -7,11 +7,7 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  css: [
-    './app/assets/css/tailwind.css',
-    'notivue/notification.css',
-    'notivue/animations.css'
-  ],
+  css: ['./app/assets/css/tailwind.css'],
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
